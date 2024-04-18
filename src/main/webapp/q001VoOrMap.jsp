@@ -104,5 +104,7 @@
 			}
 		%>
 	</table>
+	
+	<h1>git connect test</h1>
 </body>
 </html>
