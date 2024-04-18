@@ -9,17 +9,8 @@ package vo;
 
 public class Dept {
 	
-	private String dname;
-	private String loc;
-	private int deptNo;
+	public String dname;
+	public String loc;
+	public int deptNo;
 	
-	public Dept() {
-		
-	}
-	
-	public Dept(int deptNo, String dname, String loc) {
-		this.deptNo = deptNo;
-		this.dname = dname;
-		this.loc = loc;
-	}
 }
