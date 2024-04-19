@@ -52,9 +52,9 @@
 			for(Emp e : empList){
 		%>
 			<tr>
-				<td><%=e.empNo%></td>
-				<td><%=e.ename%></td>
-				<td><%=e.sal%></td>
+				<td><%=e.getEmpNo()%></td>
+				<td><%=e.getEname()%></td>
+				<td><%=e.getSal()%></td>
 			</tr>
 		<%
 			}
@@ -104,7 +104,5 @@
 			}
 		%>
 	</table>
-	
-	<h1>git connect test</h1>
 </body>
 </html>

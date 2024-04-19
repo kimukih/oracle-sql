@@ -43,9 +43,9 @@ public class EmpDAO {
 		
 		while(rs.next()) {
 			Emp e = new Emp();
-			e.empNo = rs.getInt("empNo");
-			e.ename = rs.getString("ename");
-			e.sal = rs.getDouble("sal");
+			e.setEmpNo(rs.getInt("empNo"));
+			e.setEname(rs.getString("ename"));
+			e.setSal(rs.getDouble("sal"));
 			list.add(e);
 		}
 		
