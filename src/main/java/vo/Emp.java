@@ -10,6 +10,7 @@ public class Emp {
 	private int empNo;
 	private int mgr;
 	private int deptNo;
+	private int grade;
 	
 	public String getEname() {
 		return ename;
@@ -73,6 +74,15 @@ public class Emp {
 	
 	public void setDeptNo(int deptNo) {
 		this.deptNo = deptNo;
+	}
+	
+	public int getGrade() {
+		return grade;
+	}
+	
+	public void setGrade(int grade) {
+		this.grade = grade;
+		
 	}
 		
 }
